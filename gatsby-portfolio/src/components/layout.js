@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import Spinner from '../components/spinner'
 // import GlobalStyle from "./globalStyle"
 // import Header from "./header"
 // import Footer from "./footer"
@@ -24,6 +25,7 @@ const Layout = ({ children }) => {
       {/* <Header /> */}
       <main id="main-content">{children}</main>
       {/* <Footer /> */}
+      <Spinner/>
     </StyledLayout>
   )
 }

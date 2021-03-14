@@ -24,7 +24,7 @@ class Nav extends Component {
         return(
             <div>
             {section}
-            <div><i class="far fa-bars"></i></div>
+            <div><i className="far fa-bars"></i></div>
             </div>
         );
     }
